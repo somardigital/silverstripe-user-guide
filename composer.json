@@ -1,5 +1,7 @@
 {
     "name": "somar/documentation",
+	"description": "Documentation panel using Google Doc",
+	"type": "silverstripe-vendormodule",
     "extra": {
       "expose": [
         "client/css"
