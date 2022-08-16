@@ -1,0 +1,8 @@
+{
+    "name": "somar/documentation",
+    "extra": {
+      "expose": [
+        "client/css"
+      ]
+    }
+  }
