@@ -2,7 +2,7 @@
 
 namespace Somar\UserGuide\Admin;
 
-use SilverStripe\Admin\LeftAndMain as LeftAndMain;
+use SilverStripe\Admin\LeftAndMain;
 use SilverStripe\ORM\FieldType\DBField;
 
 class UserGuideAdmin extends LeftAndMain
@@ -23,6 +23,6 @@ class UserGuideAdmin extends LeftAndMain
 
     public function getEmbedCode()
     {
-        return DBField::create_field("HTMLText", $this->config()->embed_code);
+        return DBField::create_field('HTMLText', $this->config()->embed_code);
     }
 }

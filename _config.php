@@ -1,6 +1,6 @@
 <?php
 
-use Somar\UserGuide\UserGuideAdmin;
+use Somar\UserGuide\Admin\UserGuideAdmin;
 use SilverStripe\Admin\CMSMenu;
 
 # Remove user guide admin menu item
