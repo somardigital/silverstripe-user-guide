@@ -1,0 +1,3 @@
+SilverStripe\Admin\LeftAndMain:
+  help_links:
+    'User Guide': 'user-guide'

@@ -1,3 +1,0 @@
-SilverStripe\Admin\LeftAndMain:
-  extra_requirements_css:
-    - 'somar/documentation:client/css/admin.css'
