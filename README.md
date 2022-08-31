@@ -5,19 +5,6 @@ This module for Silverstripe CMS embeds an external user guide document (such as
 
 ## Installation
 
-First update composer.json with the repository:
-
-```
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@bitbucket.org:somardesignstudios/silverstripe-user-guide.git"
-        }
-    ],
-```
-
-Then require the module as usual:
-
 ```
 composer require "somardesignstudios/silverstripe-user-guide"
 ```
