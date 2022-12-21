@@ -13,6 +13,8 @@ class UserGuideAdmin extends LeftAndMain
 
     private static $menu_priority = -1;
 
+    private static $required_permission_codes = 'CMS_ACCESS_CMSMain';
+
     /**
      * The embed code for the user guide
      *
