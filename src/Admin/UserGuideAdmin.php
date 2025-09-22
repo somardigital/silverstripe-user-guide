@@ -9,18 +9,14 @@ class UserGuideAdmin extends LeftAndMain
 {
     private static $url_segment = 'user-guide';
 
-    private static $menu_title = 'User Guide';
+    private static $menu_title = 'CMS User Guide';
 
-    private static $menu_priority = -1;
+    private static $menu_icon_class = 'font-icon-help-circled';
+
+    private static $menu_priority = -10;
 
     private static $required_permission_codes = 'CMS_ACCESS_CMSMain';
 
-    /**
-     * The embed code for the user guide
-     *
-     * @config
-     * @var array
-     */
     private static $embed_code = null;
 
     public function getEmbedCode()

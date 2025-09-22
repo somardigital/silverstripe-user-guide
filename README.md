@@ -2,6 +2,9 @@
 
 This module for Silverstripe CMS embeds an external user guide document (such as Google Docs) in the CMS and provides a link to it.
 
+## Requirements
+
+* SilverStripe Framework ^6.0
 
 ## Installation
 
