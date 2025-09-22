@@ -1,5 +1,5 @@
 {
-    "name": "somardesignstudios/silverstripe-user-guide",
+    "name": "somardigital/silverstripe-user-guide",
 	"description": "A silverstripe module providing embedded CMS User Guide Documentation",
 	"type": "silverstripe-vendormodule",
     "keywords": [
